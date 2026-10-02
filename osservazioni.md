@@ -25,9 +25,9 @@ Esito dopo la modifica e spiegazione della correzione: Dopo aver aggiunto il com
 
 ## Step 1 — Git
 
-Quali file ho incluso nel commit e perché:
+Quali file ho incluso nel commit e perché: abbiamo incluso nel commit i file hello.c e osservazioni.md e non il file hello perche' e' un eseguibile e si puo' ricreare compilando il sorgente
 
-Come ho verificato che la versione provata sia presente su GitHub:
+Come ho verificato che la versione provata sia presente su GitHub: abbiamo controllato che il tag di github nella cronologia dei commit corrispondesse a quello presente sul terminale dopo il comando git log
 
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
 
