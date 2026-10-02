@@ -29,7 +29,7 @@ Quali file ho incluso nel commit e perché: abbiamo incluso nel commit i file he
 
 Come ho verificato che la versione provata sia presente su GitHub: abbiamo controllato che il tag di github nella cronologia dei commit corrispondesse a quello presente sul terminale dopo il comando git log
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: Prima di git pull sulla copia locale del file non erano presenti modifiche; dopo aver inserito il comando, il repository locale ha scaricato l nuovo commit. Non e' necessario un nuovo clone perche' serve ad installare inizialmente una nuova copia nel repository da zero.
 
 ## Step 2 — Eco: prima prova
 
