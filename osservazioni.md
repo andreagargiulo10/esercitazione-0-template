@@ -1,27 +1,27 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo: CM-B19
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (nome, cognome e username GitHub di entrambi): Andrea Gargiulo andreagargiulo10, Martina Scalia martinascalia
 
-URL del repository condiviso:
+URL del repository condiviso: https://github.com/andreagargiulo10/esercitazione-0-template.git
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: Ci siamo alternati in entrambi gli step
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
 
 ## Step 1 — Hello World: compilazione ed esecuzione
 
-Comando di compilazione:
+Comando di compilazione: gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
 
-Comando di esecuzione e risultato osservato:
+Comando di esecuzione e risultato osservato: ./hello il risultato osservato e' che sul terminale viene stampato il messaggio contenuto come argomento nel printf di  hello.c ("Hello, computational physics!")
 
-Che cosa ho capito su sorgente ed eseguibile:
+Che cosa ho capito su sorgente ed eseguibile: la sorgente e' il file in cui vengono dati dei "comandi" ed e' scritta in linguaggio di programmazione (C in questo caso), mentre l'eseguibile e' il file scritto in linguaggio macchina, generato dal compilatore a partire dal file sorgente  
 
-Output richiesto e comportamento del programma prima della modifica:
+Output richiesto e comportamento del programma prima della modifica: Il file sorgente veniva compilato ma non stampava sul terminale alcun messaggio come invece era richiesto
 
-Esito dopo la modifica e spiegazione della correzione:
+Esito dopo la modifica e spiegazione della correzione: Dopo aver aggiunto il comando printf con il relativo argomento, compilando il file sorgente ed eseguendo, appariva sul terminale l'output richiesto. La correzione consiste nell'aggiunta del comando printf("Hello computational physiscs!\n"); al di fuori delle righe di commento ma sempre all'interno del main
 
 ## Step 1 — Git
 
